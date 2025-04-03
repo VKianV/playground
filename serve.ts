@@ -14,7 +14,7 @@ Deno.serve(async (req) => {
     const contentTypes: Record<string, string> = {
       html: "text/html",
       css: "text/css",
-      js: "application/javascript",
+      js: "text/javascript",
       png: "image/png",
       jpg: "image/jpeg",
       jpeg: "image/jpeg",
